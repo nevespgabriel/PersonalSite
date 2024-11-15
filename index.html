@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            width: 100vw;
+            height: 5.5rem;
+            background-color: rgb(22, 22, 22);
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.877);
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        nav>p{
+            font-family: "Playfair Display", serif;
+            font-size: 1.3rem;
+            letter-spacing: 0.17rem;
+            margin: 0 2.5rem;
+            weight: 700;
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.05rem;
+        }
+        #last{
+            margin-right: 4rem;
+        }
+        section{
+            padding: 4.5rem 6.5rem 3rem 6.5rem;
+            background-color: rgb(39, 38, 38);
+            height: 30rem;
+            font-family:  "Lato", sans-serif;
+            font-size: 1.5rem;
+        }
+
+        section:nth-of-type(even){
+            background-color:  rgba(255, 255, 255, 0.877);
+            color: rgb(39, 38, 38);
+        }
+       
+        section>h1{
+            font-size: 3rem;
+        }
+       
+        section{
+            color: rgba(255, 255, 255, 0.877);
+            letter-spacing: 0.17rem;
+        }
+        .about{
+            padding-top: 9rem;
+        }
+        section>p{
+            line-height: 2rem;
+        }
+        .about>img{
+            float: left;
+            border-radius: 50%;
+            margin: 0 4rem 2rem 0;
+            border: solid rgba(255, 255, 255, 0.877) 0.4rem;
+            width: 22rem;
+        }
+        .about span{
+            color: #BEF592;
+            weight: 700;
+        }
+        .skill-container{
+            display: grid;
+            background-color: hsl(0, 2%, 88%);
+            padding: 4rem;
+            border-radius: 5rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 2.5rem;
+        }
+        .skill-container>img{
+            height: 5rem;
+        }
+        #java{
+            grid-column-start: 2;
+        }
+    </style>
+    <title>GabrielNeves</title>
+</head>
+<body>
+    <nav>
+        <p>Gabriel Neves</p>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" id="last">Contact</a>
+    </nav>
+    <section class="about" id="about">
+<img src="./Ouro_preto.jpeg" alt="Myself">
+        <h1>Hello, <br>I'm <span>Gabriel Pereira Neves</span></h1>
+        <hr>
+        <p>I study Analysis and System Development at the UTFPR, and my actual goal is to master the full stack development. I also have a great logical reasoning and I love problem solving.</p>
+    </section>
+    <section class="skills" id="skills">
+        <h1>Skills</h1> 
+        <div class="skill-container">
+            <img src="./images/HTML5_logo_and_wordmark.svg.png">
+            <img src="./images/CSS3_logo_and_wordmark.svg.png" alt="">
+            <img src="./images/Unofficial_JavaScript_logo_2.svg.png" alt="">
+            <img src="./images/Bootstrap_logo.svg.png" alt="">
+            <img src="./images/express-js.png" alt="">
+            <img src="./images/Node.js_logo.svg.png" alt="">
+            <img src="./images/png-transparent-c-logo-c-programming-language-icon-letter-c-blue-logo-computer-program-thumbnail.png" alt="">
+            <img src="./images/181_Java_logo_logos-512.webp" id="java" alt="">
+            <img src="./images/git.png" alt="">
+            <img src="./images/pngimg.com - mysql_PNG23.png" alt="">
+            <img src="./images/png-transparent-postgresql-original-wordmark-logo-icon-thumbnail.png" alt="">
+            <img src="./images/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175140.webp" alt="">
+            
+        </div>
+    </section>
+    <section class="experience" id="experience">
+
+    </section>
+    <section class="projects" id="projects">
+
+    </section>
+    <section class="contact" id="contact">
+        
+    </section>
+</body>
+</html>
