@@ -147,6 +147,7 @@ form>div{
 
 textarea{
     border-radius: 0.5rem;
+    resize: none;
 }
 
 #contact, #certifications{
